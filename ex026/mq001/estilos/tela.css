@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+/* Estilo para impressora */
+
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+header {
+    background-color: rgba(67, 57, 214, 0.774)
+}
+
+header h1 {
+    text-align: center;
+}
+
+menu ul {
+    list-style-type: none;
+    background-color: rgb(52, 134, 107);
+}
+
+menu li {
+    background-color: rgba(99, 110, 106, 0.952);
+    color: beige;
+    display: inline-block;
+    padding: 10px;
+}
+
+article {
+    width: 600px;
+    display: block;
+    margin: auto;
+}
